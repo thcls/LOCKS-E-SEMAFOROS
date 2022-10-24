@@ -1,4 +1,3 @@
-from platform import release
 import threading
 from random import randint
 import time

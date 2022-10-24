@@ -7,7 +7,7 @@ semaforo = threading.Semaphore(3)
 
 
 def atendercliente(i):
-    semaforo.acquire(i)
+    semaforo.acquire()
     tempo = randint(3,10)
     time.sleep(tempo)
     semaforo.release()
